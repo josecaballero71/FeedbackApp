@@ -1,0 +1,233 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+    height: 80px;
+
+    background-color: var(--primary);
+    margin-top: 2%;
+    border-radius: 20px;
+
+    gap: 5%;
+    color: var(--text-color);
+}
+
+.search-bar .title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    width: 20%;
+}
+
+.search-bar .title .blue-title,
+.search-bar .title .green-title {
+    font-size: 24px !important;
+}
+
+.search-bar .title .blue-title {
+    color: var(--highlight);
+}
+
+.search-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 70%;
+    gap: 5px;
+    height: 100%;
+}
+
+.select-container {
+    width: 35%;
+    height: 50%;
+    display: flex;
+    gap: 5%;
+
+    align-items: center;
+}
+
+.select-container input,
+#center {
+    background-color: var(--highlight-bg);
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    height: 100%;
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+.button-container {
+    width: 10%;
+    height: 50%;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: calc(6vh + 2%);
+    background-color: var(--primary);
+
+    width: 90%;
+    height: 10%;
+    min-height: 50px;
+}
+
+.search-bar .title {
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1%;
+    padding: 0;
+    border: 0;
+
+}
+
+.search-bar .title .green-title,
+.search-bar .title .blue-title {
+    font-size: 22px;
+}
+
+.search-bar .title h1 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.search-bar .title h1 .blue-title {
+    color: var(--highlight);
+}
+
+.search-bar-right {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    gap: 10%;
+}
+
+.select-container {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+.select-container input,
+#center {
+    background-color: var(--highlight);
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.button-container {
+    width: 10%;
+    max-width: 100px;
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+*/

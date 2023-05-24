@@ -1,0 +1,68 @@
+.thanks-wrapper {
+    margin-top: 6vh;
+    width: 100%;
+    height: 94vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.thanks-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 40%;
+    height: 90%;
+
+    gap: 2.5%;
+}
+
+.thanks-left img {
+    width: 80%;
+}
+
+.thanks-left .ranking {
+    height: 20%;
+}
+
+.thanks-right {
+    width: 50%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: auto;
+
+    gap: 5%;
+}
+
+.thanks-right .title h1 .green-title,
+.thanks-right .title h1 .blue-title {
+    font-size: 2em;
+}
+
+.thanks-right p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--highlight);
+}
+
+.button-container {
+    display: flex;
+    height: 15%;
+    width: 80%;
+    justify-content: center;
+}.button-container .survey-card,
+.button-container .card-title {
+    background-color: var(--primary);
+    color: var(--text-color);
+    border-radius: 300px;
+}

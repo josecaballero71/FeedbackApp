@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./public/icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback Hub</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+    }
+
+    #root {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+
+      overflow: hidden;
+    }
+
+    :root {
+      --primary: rgb(10, 88, 143);
+      --secondary: rgb(125, 195, 67);
+      --highlight: rgb(0, 175, 239);
+      --dark-highlight: rgb(38, 0, 98);
+
+      --text-color: rgb(255, 255, 255);
+      --sober-color: rgb(71, 101, 123);
+
+      --accepted: rgb(127, 255, 21);
+      --medium: rgb(255, 252, 41);
+      --negative: rgb(255, 24, 24);
+
+      --str-medium: rgb(182, 124, 1);
+      --str-negative: rgb(189, 0, 0);
+
+      --highlight-bg: rgb(170, 232, 255);
+      --medium-bg: rgb(246, 245, 164);
+      --negative-bg: rgb(255, 161, 161);
+    }
+
+    .content {
+      width: 100vw;
+      height: 94vh;
+      margin-top: 65px;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="./src/index.jsx"></script>
+</body>
+
+</html>

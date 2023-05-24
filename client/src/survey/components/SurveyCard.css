@@ -1,0 +1,25 @@
+.survey-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    max-height: 100%;
+    max-width: 450px;
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+
+    border: 3px solid var(--primary);
+    background-color: var(--color);
+
+    cursor: pointer;
+}.survey-card img {
+    height: 75%;
+    width: 75%;
+}.survey-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+}
