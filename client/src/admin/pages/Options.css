@@ -1,0 +1,31 @@
+.option-container {
+    display: flex;
+
+    width: 100%;
+    top:15vh;
+    justify-content:space-around;
+    align-items:center;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+#whole-container {
+display: none;
+position: absolute;
+top: 35vh;
+box-sizing: border-box;
+margin: 2vh;
+width: 100vw;
+height: 55vh;
+align-items:start;
+justify-content:center;
+background-color: rgba(0,0,0,0.8);
+}
+

@@ -1,0 +1,16 @@
+.form-container {
+    display:block;
+    background-color: aquamarine;
+    margin:5vh;
+    border-radius: 20px;
+    
+        
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

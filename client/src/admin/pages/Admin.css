@@ -1,0 +1,12 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 94vh;
+    width: 100%;
+    position: absolute;
+    top: 65px;
+
+}

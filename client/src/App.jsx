@@ -10,6 +10,7 @@ import Thanks from './survey/pages/Thanks.jsx';
 
 import Dashboard from './dashboard/pages/Dashboard.jsx';
 import Detail from './dashboard/pages/Detail.jsx'
+import Admin from './admin/pages/Admin.jsx';
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
 
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/detail' element={<Detail />} />
+        <Route path='/admin' element={ <Admin /> } />
       </Routes>
     </BrowserRouter>
 

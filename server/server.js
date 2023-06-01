@@ -5,6 +5,7 @@ import authRouter from './controllers/auth.js'
 import surveyRouter from './controllers/survey.js'
 import centerRouter from './controllers/center.js'
 import informationRouter from './controllers/information.js'
+import router from './controllers/user.js'
 
 import cors from 'cors';
 import bcrypt from 'bcryptjs';
@@ -19,6 +20,7 @@ app.use('/', authRouter)
 app.use('/', surveyRouter)
 app.use('/', centerRouter);
 app.use('/', informationRouter);
+app.use('/', router)
 
 app.set('port', config.port)
 
